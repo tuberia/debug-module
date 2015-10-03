@@ -1,6 +1,6 @@
 {
   "name": "tuberia-debug-module",
-  "version": "1.0.0",
+  "version": "1.0.0-rc.1",
   "description": "Adds debug capabilities to a Tuberia pipeline.",
   "main": "lib/index.js",
   "scripts": {
