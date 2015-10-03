@@ -1,0 +1,27 @@
+{
+  "name": "tuberia-debug-module",
+  "version": "1.0.0",
+  "description": "Adds debug capabilities to a Tuberia pipeline.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel --optional es7.functionBind -d lib/ src/",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "mercurial",
+    "url": "https://bitbucket.org/tuberia/debug-module"
+  },
+  "keywords": [
+    "tuberia",
+    "tuberia-module",
+    "debug",
+    "inspect"
+  ],
+  "author": "Colin Bate <colin@colinbate.com>",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/tuberia/debug-module#readme",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
